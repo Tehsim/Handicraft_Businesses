@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "66cb60f19cb160e91c6ea371"
+  },
+  "username": "saha",
+  "email": "saha@gmail.com",
+  "password": "$2a$10$XTFeFMBd7CSu4GwL9j1ex.SjLvt.7K5RV.Vp.toB.50I.kvqobJjC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb6560daea438434e3302b"
+  },
+  "username": "sahana",
+  "email": "sahana@gmail.com",
+  "password": "$2a$10$uGPJzP59gMp63HIRvKneVOtjKIIpJESda2V1.wjOX1SHrduDXOQ.m",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cb807586e645600d8f0e5b"
+  },
+  "username": "s",
+  "email": "s@gmail.com",
+  "password": "$2a$10$VuWdbKylr87BfyBxfQj18OOnPv/99v1nKFkJPioGvZ/kGWMB0AqfO",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66cc9d2c955b84f17323cd05"
+  },
+  "name": "Tehsim Fariha",
+  "email": "tehsim@example.com",
+  "password": "$2b$10$cBRq76TzMd1IVwZUvgDL4OR9zzO032HKZ0KcPrqHmm5IqBRM/sOLe",
+  "profilePictureUrl": "https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/",
+  "__v": 0
+}]

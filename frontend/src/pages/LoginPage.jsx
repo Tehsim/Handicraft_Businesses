@@ -47,37 +47,37 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-12 bg-white p-8 shadow-lg rounded-lg">
-      <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
+    <div className="max-w-md mx-auto mt-12 bg-white dark:bg-gray-800 p-8 shadow-lg rounded-lg">
+      <h2 className="text-2xl font-bold text-center mb-6 text-gray-900 dark:text-gray-100">Login</h2>
       <form onSubmit={handleLogin}>
         <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
+          <label className="block text-gray-700 dark:text-gray-300">Email</label>
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border rounded bg-gray-100 dark:bg-gray-700 dark:text-gray-100"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Password</label>
+          <label className="block text-gray-700 dark:text-gray-300">Password</label>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full px-3 py-2 border rounded"
+            className="w-full px-3 py-2 border rounded bg-gray-100 dark:bg-gray-700 dark:text-gray-100"
             required
           />
         </div>
         <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-500">Login</button>
       </form>
       <div className="text-center mt-4">
-        <p className="text-gray-700">Or login with:</p>
+        <p className="text-gray-900 dark:text-gray-100">Or login with:</p>
         <button onClick={handleGoogleLogin} className="bg-red-500 text-white py-2 px-4 rounded mt-2">Google</button>
       </div>
       <div className="text-center mt-4">
-        <p className="text-gray-700">Don't have an account?</p>
+        <p className="text-gray-900 dark:text-gray-100">Don't have an account?</p>
         <button
           onClick={handleRegisterRedirect}
           className="w-full bg-green-600 text-white py-2 rounded hover:bg-green-500 mt-2"
